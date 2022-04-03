@@ -12,12 +12,13 @@ namespace redis_workshop
         {
             var list = new List<ITest>()
             {
-                new Leaderboard(),
-                new Bitmap(),
-                new Autocomplete(),
                 new Counter(),
+                new Bitmap(),
+                new Leaderboard(),
+                new Queue(),
                 new BloomFilter(),
-                new Queue()
+                new DistributedLock(),
+                new Autocomplete()
             };
             foreach (var l in list)
             {
