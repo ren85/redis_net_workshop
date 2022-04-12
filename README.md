@@ -20,22 +20,22 @@ https://redis.io/commands/zadd
 
 **IV. Queue**
 
-Queue is a list of items that different processes can add items to and retrieve them atomically (i.e. no two processes are guaranteed to get the same item).
+Queue is a list of items that different processes can add items to and retrieve them atomically (i.e. no two processes are guaranteed to get the same item).  
 https://redis.io/commands/lpush
 
 **V. Bloom filter**
 
-Bloom filter is a probabilistic data structure that allows to check for uniqueness efficiently
+Bloom filter is a probabilistic data structure that allows to check for uniqueness efficiently  
 https://redis.io/commands/setbit
 
 **VI. Distributed lock**
 
-Locking for inter-process coordination
+Locking for inter-process coordination  
 https://redis.io/commands/set/
 
 **VII. Autocomplete**
 
-Very efficient autocomplete implementation
+Very efficient autocomplete implementation  
 https://redis.io/commands/zadd
 
 
